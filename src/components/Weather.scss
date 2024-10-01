@@ -10,6 +10,22 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+
+    .weather-icon {
+        width: 150px;
+        margin: 30px 0;
+    }
+
+    .temperature {
+        color: #fff;
+        font-size: 80px;
+        line-height: 1;
+    }
+
+    .location {
+        color: #fff;
+        font-size: 40px;
+    }
 }
 
 .search-bar {
@@ -34,5 +50,33 @@
         border-radius: 50%;
         background: #ebfffc;
         cursor: pointer;
+    }
+}
+
+.weather-data {
+    width: 100%;
+    margin-top: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+
+    .col {
+
+    }
+}
+
+.weather-data .col {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+
+    .span {
+        display: block;
+        font-size: 16px;
+    }
+
+    img {
+        width: 26px;
+        margin-top: 10px;;
     }
 }
